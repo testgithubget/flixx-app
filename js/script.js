@@ -340,6 +340,7 @@ function displayPagination(){
     results.forEach((movie) => {
       const div = document.createElement('div');
       div.classList.add('swiper-slide');
+      
 
       div.innerHTML = `  
             <a href="movie-details.html?id=${movie.id}">
