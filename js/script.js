@@ -4,12 +4,6 @@ const global = {
     term : '',
     type: '',
     page: 1,
-    
-    
-    
-    
-    
-    
     totalPages: 1,
     totalResults: 0
    },
@@ -110,8 +104,8 @@ async function displayPopularShows() {
                 src="https://image.tmdb.org/t/p/w500${movie.poster_path}"
                 class="card-img-top"
                 alt="${movie.title}"
-              />` 
-                  : `<img
+              />`   
+                  : `<img 
               src="../images/no-image.jpg"
               class="card-img-top"
               alt="${movie.title}"
